@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Caveat;
+}
+
+header {
+    background-color: lightgrey;
+    color: red;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #555;
+    padding: 0;
+    text-align: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 ;
+    padding: 2rem;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+}
+
+.main-section-img{
+    background-color: blue;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 1rem;
+    float: left;
+}
+.main-section{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+.contactUs{
+    text-align: center;
+}
+.contactUs label{
+    display: block;
+    padding: 0.4rem;
+    text-transform: uppercase;
+    text-align: left;
+
+}
+
+.contactUs input{
+    width: 20rem;
+    padding: 0.4rem;
+
+}
+
+.containter_Women {
+    display: flex;
+    background-color: lightcyan;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+.containter_Women > div{
+    width: 100px;
+}
+.containter_Women > div > img{
+    width: 100%;
+
+}
+.containter_Women > div > audio{
+    width: 100%;
+
+}
+.containter_Women > div > video{
+    width: 100%;
+
+}
+.containter_Women > div > item3{
+    flex-grow: 4;
+
+}
+.main-section-Men{
+    display : flex;
+    flex-direction: column;
+}
+.containter-Men{
+    display : flex;
+    background-color: lightcoral;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.containter-Men > div{
+    width: 100px;
+}
+.containter-Men > div > img{
+    width: 100%;
+
+}
+.containter-Men > div > audio{
+    width: 100%;
+
+}
+.containter-Men > div > video{
+    width: 100%;
+
+}
+.containter-Men > div > iframe{
+    width: 200%;
+
+}
+.containter-Men > div > item3{
+    flex-grow: 4;
+
+}
