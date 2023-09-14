@@ -1,0 +1,20 @@
+function handleSubmit(){
+    document.getElementById("firstName").value
+    console.log(document.getElementById("firstName").value)
+    document.getElementById("lastName").value
+    console.log(document.getElementById("lastName").value)
+    document.getElementById("email").value
+    console.log(document.getElementById("email").value)
+    document.getElementById("url").value
+    console.log(document.getElementById("url").value)
+    document.getElementById("date").value
+    console.log(document.getElementById("date").value)
+    document.getElementById("month").value
+    console.log(document.getElementById("month").value)
+    document.getElementById("time").value
+    console.log(document.getElementById("time").value)
+    document.getElementById("color").value
+    console.log(document.getElementById("color").value)
+    document.getElementById("search").value
+    console.log(document.getElementById("search").value)
+}
